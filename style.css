@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(210, 210, 209);
+    color: #4b1685;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #6910c7;
+    color: rgb(195, 185, 112);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(195, 185, 112);
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #4b1685;
+    color: #310e56;
+}
+
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6910c7;
+    text-align: center;
+}
+
+#about .profile-container {
+    display: flex;
+    flex-direction: column; /* Вирівнюємо зображення і текст вертикально */
+    justify-content: center;
+    align-items: center; /* Центруємо елементи по горизонталі */
+    text-align: center;
+    margin-top: 20px;
+    max-width: 600px; /* Обмежуємо ширину секції */
+    margin-left: auto; /* Центруємо секцію по горизонталі */
+    margin-right: auto; /* Центруємо секцію по горизонталі */
+}
+
+#about img {
+    border-radius: 50%;
+    border: 5px solid #6910c7;
+    margin-bottom: 20px;
+}
+
+#about .profile-info {
+    max-width: 400px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #6910c7;
+    color: #fff;
+}
+/*
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #6910c7;
+    color: white;
+    font-size: 1.1rem;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td {
+    font-size: 1rem;
+}
+*/
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #6910c7;
+    color: rgb(195, 185, 112);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #d3be55;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgb(195, 185, 112);
+}
